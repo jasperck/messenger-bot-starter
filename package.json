@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/jasperck/messenger-bot-starter/issues"
   },
-  "homepage": "https://github.com/jasperck/messenger-bot-starter#readme"
+  "homepage": "https://github.com/jasperck/messenger-bot-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
 }
