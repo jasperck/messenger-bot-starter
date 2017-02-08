@@ -1,0 +1,19 @@
+{
+  "name": "messenger-bot-starter",
+  "version": "1.0.0",
+  "description": "Facebook messager Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasperck/messenger-bot-starter.git"
+  },
+  "author": "jasperck <jasperc8@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasperck/messenger-bot-starter/issues"
+  },
+  "homepage": "https://github.com/jasperck/messenger-bot-starter#readme"
+}
