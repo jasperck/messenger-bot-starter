@@ -1,5 +1,6 @@
 'use strict';
 
+const bodyParser = require('body-parser');
 const express = require('express');
 const APP_CONST = require('../constant/app');
 
@@ -17,7 +18,9 @@ class Server {
    * Initial middleware
    * @private
    */
-  _initMiddleware() {}
+  _initMiddleware() {
+    this.core.use(bodyParser.json());
+  }
 
   /**
    * Initial router
