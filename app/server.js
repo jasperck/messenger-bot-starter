@@ -2,6 +2,7 @@
 
 const bodyParser = require('body-parser');
 const express = require('express');
+const route = require('./route');
 const APP_CONST = require('../constant/app');
 
 class Server {
@@ -26,7 +27,9 @@ class Server {
    * Initial router
    * @private
    */
-  _initRouter() {}
+  _initRouter() {
+    this.core.use(route);
+  }
 
   /**
    * Boot server
