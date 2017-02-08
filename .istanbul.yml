@@ -1,0 +1,7 @@
+instrumentation:
+  root: .
+  default-excludes: true
+  excludes: []
+  include-all-sources: true
+reporting:
+  dir: ./coverage
