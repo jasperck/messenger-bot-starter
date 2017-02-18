@@ -1,0 +1,19 @@
+{
+  "type": "template",
+  "payload": {
+    "template_type": "button",
+    "text": "",
+    "buttons": [
+      {
+        "type": "web_url",
+        "url": "",
+        "title": ""
+      },
+      {
+        "type": "postback",
+        "title": "",
+        "payload": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "template",
+  "payload": {
+    "template_type": "button",
+    "text": "",
+    "buttons": [
+      {
+        "type": "phone_number",
+        "title": "",
+        "payload": ""
+      }
+    ]
+  }
+}
